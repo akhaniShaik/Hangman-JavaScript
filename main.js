@@ -89,7 +89,13 @@ function handleGuess(chosenLetter) {
 // create fucntion updateHangamnPicture
 
 function updateHangamnPicture() {
-  document.getElementById("hangmanPic").src = "images/" + mistakes + "/jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[0] + "0.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[1] + "1.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[2] + "2.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[3] + "3.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[4] + "4.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[5] + "5.jpg";
+  document.getElementById("hangmanPic").src = "images/" + mistakes[6] + "6.jpg";
 }
 
 // create function checkIfGameWon
